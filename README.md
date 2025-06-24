@@ -130,7 +130,3 @@ Hello! From SM.
 (qangle : (4.500000, 6.699999, 8.899999)
 Hi There! From VScript.
 ```
-
-## License
-
-None of my business

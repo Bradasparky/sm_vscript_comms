@@ -38,17 +38,12 @@ int iScopeEnt, iProxies[MAX_PROXIES];
 VScriptCall tCurrentCall;
 VScriptHandleInternal hCurrentHandle = INVALID_VSCRIPT_HANDLE;
 
-stock static const char szParamCountToString[][] =
-{
-    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"
-};
-
 stock static const char szReturnTypeName[][] =
 {
     "Invalid", "Void", "Entity", "Bool", "Int", "Float", "String", "Vector", "QAngle"
 };
 
-stock static const char szParamTypeName[][] =
+static const char szParamTypeName[][] =
 {
     "Invalid", "Entity", "Bool", "Int", "Float", "String", "Vector", "QAngle"
 };
