@@ -256,7 +256,7 @@ class VScriptCall_
 		// Try in the case that the function errors, then we can log the error in Sourcemod
 		try
 		{
-			local returnval = scope.rawget(func).acall(args);
+			local returnval = scope[func].acall(args);
 
 			// Set the return value into it's designated netprop of the expected type
 			switch (GetReturnType())
